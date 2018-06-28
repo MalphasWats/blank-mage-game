@@ -78,7 +78,7 @@ int main (void)
                 set_display_col_row(0, row);
                 for (byte col=0 ; col<SCREEN_COLUMNS ; col++)
                 {
-                    shift_out_block(&GLYPHS[MAP[ SCREEN_ROWS * row + col ]*8], FALSE);
+                    shift_out_block(&GLYPHS[MAP[ SCREEN_COLUMNS * row + col ]*8], FALSE);
                 }
             }
             
