@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 # define MAIN_H
 
-#include "platform.h"
+#include "MAGE.h"
 
 static const __flash byte GLYPHS[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // SPACE
